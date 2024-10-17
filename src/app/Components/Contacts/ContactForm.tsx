@@ -57,7 +57,7 @@ const ContactForm = () => {
         <div className="mb-6">
           <div className="mx-0 mb-1 sm:mb-4">
             <div className="mx-0 mb-1 sm:mb-4">
-              <label htmlFor="name" className="pb-1 text-xs uppercase tracking-wider">Votre nom</label>
+              <label htmlFor="name" className="pb-1 text-xs uppercase tracking-wider text-white">Votre nom</label>
               <input 
                 type="text" 
                 id="name" 
@@ -70,7 +70,7 @@ const ContactForm = () => {
               />
             </div>
             <div className="mx-0 mb-1 sm:mb-4">
-              <label htmlFor="email" className="pb-1 text-xs uppercase tracking-wider">Votre Email</label>
+              <label htmlFor="email" className="pb-1 text-xs uppercase tracking-wider text-white">Votre Email</label>
               <input 
                 type="email" 
                 id="email" 
@@ -84,7 +84,7 @@ const ContactForm = () => {
             </div>
           </div>
           <div className="mx-0 mb-1 sm:mb-4">
-            <label htmlFor="textarea" className="pb-1 text-xs uppercase tracking-wider">Votre message</label>
+            <label htmlFor="textarea" className="pb-1 text-xs uppercase tracking-wider text-white">Votre message</label>
             <textarea 
               id="textarea" 
               name="textarea"

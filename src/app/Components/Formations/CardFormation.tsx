@@ -67,7 +67,7 @@ function Card() {
                 GreatLearning
                 </span>
                 <p className="text-sm font-normal text-gray-400">
-                  Certificat, Responsive Web Design
+                  Certificate of completion, MERN stack
                 </p>
               </div>
               <span className="inline-flex items-center justify-center px-2 py-0.5 ms-3 text-xs font-medium rounded bg-gray-700 text-gray-400">

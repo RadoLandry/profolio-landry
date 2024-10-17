@@ -1,7 +1,7 @@
 "use client"; 
 
 import React from 'react';
-import pdf from '../../assets/images/pdp.jpeg'
+import pdf from '../../assets/images/pdp.jpeg';
 import Image from 'next/image';
 import Link from "next/link";
 import { useState } from 'react';

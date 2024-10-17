@@ -5,7 +5,7 @@ import projectInfo from './data/projectInfo'
 const CardProject = () => {
   return (
     <div className="w-full max-w-md p-4 border rounded-lg shadow sm:p-6 bg-gray-[#4b556330] border-gray-700">
-      <h5 className="mb-3 text-base font-semiboldmd:text-xl text-white">
+      <h5 className="mb-3 text-base font-semibold md:text-xl text-white">
         Projets
       </h5>
       <p className="text-sm font-normal text-gray-400">
