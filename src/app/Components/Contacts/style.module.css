@@ -1,0 +1,22 @@
+.decorationRight {
+    z-index: -1;
+    width: 150px;
+    height: 150px;
+    background-color: #134978;
+    filter: blur(80px);
+    border-radius: 50%;
+    position: absolute;
+    top: auto;
+    right: 0%;
+}
+
+.decorationLeft {
+    z-index: -1;
+    width: 150px;
+    height: 150px;
+    background-color: #134978;
+    filter: blur(80px);
+    border-radius: 50%;
+    position: absolute;
+    top: auto;
+}
