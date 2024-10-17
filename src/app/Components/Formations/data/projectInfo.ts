@@ -1,4 +1,4 @@
-import logo_venum from '../images/logo venum.png';
+import logo_venum from '../images/logo venum.jpg';
 import logo_dragonBleu from '../images/dragonbleu.png';
 import logo_clicar from '../images/clicar_logo.jpg'
 
