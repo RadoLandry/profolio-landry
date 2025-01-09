@@ -3,6 +3,7 @@ import Image from 'next/image';
 import logo_ispm from './images/logo_ispm.png';
 import freecodecamp from './images/freecodecamp.jpg';
 import great_learning_logo from './images/great_learning_logo.jpg';
+import Link from 'next/link';
 
 function Card() {
   return (
@@ -16,8 +17,7 @@ function Card() {
         </p>
         <ul className="my-4 space-y-3">
           <li>
-            <a
-              href="#"
+            <div
               className="flex items-center p-3 text-base font-bold rounded-lg group hover:shadow bg-[#4b55631c] hover:bg-[#6b728026] text-white"
             >
               <Image src={logo_ispm} width={50} height={50} alt="logo_ispm" />
@@ -33,7 +33,7 @@ function Card() {
               <span className="inline-flex items-center justify-center px-2 py-0.5 ms-3 text-xs font-medium rounded bg-gray-700 text-gray-400">
                 2015-2020
               </span>
-            </a>
+            </div>
           </li>
 
           <li>
@@ -41,15 +41,15 @@ function Card() {
               href="#"
               className="flex items-center p-3 text-base font-bold rounded-lg group hover:shadow bg-[#4b55631c] hover:bg-[#6b728026] text-white"
             >
-              <Image src={freecodecamp} width={50} height={50} alt="logo_ispm" />
-              <div className="flex-1 ms-3 whitespace-normal text-sm">
-                <span>
+              <Image src={freecodecamp} width={50} height={50} alt="freecodecamp_logo" />
+              <span className="flex-1 ms-3 whitespace-normal text-sm">
+                <span className='block'>
                 freeCodeCamp
                 </span>
-                <p className="text-sm font-normal text-gray-400">
+                <Link href="https://www.freecodecamp.org/certification/fcc63b11ea3-1b41-4a8e-85ed-fe4aa34b739b/responsive-web-design" className="text-sm font-normal text-gray-400 hover:underline" target="_blank" rel="noopener noreferrer">
                   Certificat, Responsive Web Design
-                </p>
-              </div>
+                </Link>
+              </span>
               <span className="inline-flex items-center justify-center px-2 py-0.5 ms-3 text-xs font-medium rounded bg-gray-700 text-gray-400">
                 Août 2024
               </span>
@@ -62,14 +62,14 @@ function Card() {
               className="flex items-center p-3 text-base font-bold rounded-lg group hover:shadow bg-[#4b55631c] hover:bg-[#6b728026] text-white"
             >
               <Image src={great_learning_logo} width={50} height={50} alt="logo_ispm" />
-              <div className="flex-1 ms-3 whitespace-normal text-sm">
-                <span>
+              <span className="flex-1 ms-3 whitespace-normal text-sm">
+                <span className='block'>
                 GreatLearning
                 </span>
-                <p className="text-sm font-normal text-gray-400">
+                <Link href="https://www.mygreatlearning.com/certificate/RKPYBCQE" className="text-sm font-normal text-gray-400 hover:underline" target="_blank" rel="noopener noreferrer">
                   Certificate of completion, MERN stack
-                </p>
-              </div>
+                </Link>
+              </span>
               <span className="inline-flex items-center justify-center px-2 py-0.5 ms-3 text-xs font-medium rounded bg-gray-700 text-gray-400">
                 Août 2024
               </span>

@@ -1,6 +1,6 @@
 .back {
     text-align: center;
-    background-image: url('/images/smoke.png');
+    /* background-image: url('/images/smoke.png'); */
     background-position: 50% 0;
     background-repeat: no-repeat;
     background-size: cover;
