@@ -10,7 +10,7 @@ const contactInfos = [
   },
   {
     icon: IconeAdress,
-    title: "adresse",
+    title: "Adresse",
     details: ["Lot près VB 72 Bis SA Ambatoroka", "Antananarivo, Madagascar"]
   },
 ];
