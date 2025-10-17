@@ -3,8 +3,7 @@ import style from './style.module.css'
 import DowloadIcone from './icones/DowloadIcone';
 import ReseauSociaux from '../ReseauSociaux/ReseauSociaux';
 import Image from 'next/image';
-import photodp from '../../assets/images/photodp.jpg'
-
+import photodp from '../../assets/images/pdp.png'
 
 function HeroTwo() {
 
@@ -12,7 +11,7 @@ function HeroTwo() {
     <section className={style.back}>
         
         <div className='container m-auto'>
-            <Image className="text-center m-auto my-5 rounded-full" src={photodp} width="150" height="150" alt="pdp"/>
+            <Image className="text-center m-auto my-5 rounded-sm" src={photodp} width="150" height="150" alt="pdp"/>
             <h1 className='text-white mb-15 font-manrope text-2xl md:text-6xl font-bold leading-relaxed mx-2'>RANDRIANANDRASANA Landry</h1>
             <p className='text-sm md:text-xl text-slate-400 mt-5 text-center max-w-3xl mx-2 md:m-auto '>Développeur full-stack MERN et spécialiste Shopify basé à Madagascar, j’aide les entreprises à construire des solutions e-commerce modernes et performantes</p>
             <div className={style.decoration}></div>

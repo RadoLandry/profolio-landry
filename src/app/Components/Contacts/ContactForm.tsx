@@ -51,7 +51,7 @@ const ContactForm = () => {
 
   return (
     <div className="card h-fit max-w-6xl p-5 md:p-12" id="form">
-            <div className={style.decorationLeft}></div>
+      <div className={style.decorationLeft}></div>
       <h2 className="mb-4 text-2xl font-bold text-white"></h2>
       <form id="contactForm" onSubmit={handleSubmit}>
         <div className="mb-6">
