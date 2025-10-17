@@ -35,16 +35,16 @@ const experienceArray:IExperienceCard[] = [
       years: "2023-Aujourd'hui",
       duration: "",
       technologies: ["Next", "Remix", "GraphQl", "MySQL", "Shopify API","shopify Extensions"],
-      description: "Solutions digitales sur mesure (back-office et front-office) pour automatiser, innover les besoins des clients et les équipes commerciales",
+      description: "Solutions digitales sur mesure (back-office et front-office) pour automatiser les processus, innover et accompagner les besoins des clients et des équipes commerciales.",
       achievements: [
-        "ALERTIFY:applcation qui envoye des mails concernant les états des produits",
-        "APP-CLUB: application de gestion des remises",
-        "TIMER: application qui permet des afficher des bannières dynamiquement avec une compte a rebour",
-        "HEPPENER: gerer les affichages des méthode de livraisons dans la pages checkout",
-        "RUNBACK:permet de retouner une commande",
-        "EDIT-ORDER: une application qui permet au utilisateur de modifier leur commande",
-        "CHECKOUT-APP: permet de gerer les formulaire dans la page checkout",
-        "APP-QUIZ: une application qui aide les utilisateur a mieux choisir leur produits"
+        "ALERTIFY : une application qui envoie des e-mails concernant l'état des produits.",
+        "APP-CLUB : application dédiée à la gestion et au suivi des remises",
+        "TIMER : une application qui permet d'afficher des bannières dynamiquement avec un compte à rebours.",
+        "HEPPENER : solution qui adapte l'affichage des méthodes de livraison lors du passage de commande",
+        "RUNBACK : application de gestion des retours de commandes",
+        "EDIT-ORDER : outil de gestion permettant aux clients de modifier leurs commandes après validation",
+        "CHECKOUT-APP : module de personnalisation des formulaires sur la page de paiement",
+        "APP-QUIZ : guide interactif pour aider les clients à trouver les produits qui leur correspondent"
       ],
       category: "fullstack"
     },
@@ -56,12 +56,12 @@ const experienceArray:IExperienceCard[] = [
       technologies: ["Node.js", "Docker", "Kubernetes", "PostgreSQL", "Redis"],
       description: "Architecture microservices pour un système de gestion d'entreprise avec plus de 50 endpoints API.",
       achievements: [
-        "Tafatafa: une réseau sociaux comme messenger réalisé par Next,Typescript, Nodes, MongoDB,webSocket(2024-2025)",
-        "Création d'un logiciel de prédiction de séries temporelles par réseaux de neurones Artificiels multicouches,développé en C# (projet en M2)",
-        "Logiciel de gestion de réservation de taxi, développé en React et NodesJS(MERN) (projet en M1)",
-        "Logiciel de gestion du centre médico-social au sein du Ministère de la Jeunesse et des Sports,développé en C# (Stage en L3)",
-        "KAINA MALAGASY : jeu, développé en Java, projet en L2 à l'ISPM",
-        "GESTION D'ÉCOLE : logiciel de gestion d'école développé en C#, projet en L1"
+        "Tafatafa : un réseau social similaire à Messenger, réalisé avec Next.js, TypeScript, Node.js, MongoDB et WebSocket (2024-2025)",
+        "Création d'un logiciel de prédiction de séries temporelles par réseaux de neurones artificiels multicouches, développé en C# (projet de M2)",
+        "TAXII: Logiciel de gestion de réservation de taxi, développé avec React et Node.js (stack MERN) (projet de M1)",
+        "DOC-MJS:Logiciel de gestion du centre médico-social au sein du Ministère de la Jeunesse et des Sports, développé en C# (stage de L3)",
+        "KAINA MALAGASY : jeu vidéo développé en Java, projet de L2 à l'ISPM",
+        "GESTION D'ÉCOLE : logiciel de gestion scolaire développé en C#, projet de L1"
       ],
       category: "ai"
     },
