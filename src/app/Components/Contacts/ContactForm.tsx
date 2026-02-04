@@ -2,8 +2,8 @@
 
 import { useState } from 'react';
 import style from './style.module.css'
-import PhoneInput, { Value } from "react-phone-number-input";
-import flags from "react-phone-number-input/flags";
+// import PhoneInput, { Value } from "react-phone-number-input";
+// import flags from "react-phone-number-input/flags";
 import "react-phone-number-input/style.css";
 
 interface FormData {
@@ -13,7 +13,7 @@ interface FormData {
 }
 
 const ContactForm = () => {
-   const [phone, setPhone] = useState<Value>();
+  //  const [phone, setPhone] = useState<Value>();
   const [formData, setFormData] = useState<FormData>({
     name: '',
     email: '',
