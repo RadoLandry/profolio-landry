@@ -4,6 +4,7 @@ import DowloadIcone from './icones/DowloadIcone';
 import ReseauSociaux from '../ReseauSociaux/ReseauSociaux';
 import Image from 'next/image';
 import photodp from '../../assets/images/pdp.png'
+import Link from 'next/link';
 
 function HeroTwo() {
 
@@ -17,14 +18,14 @@ function HeroTwo() {
             <div className={style.decoration}></div>
         </div>
         <ReseauSociaux/>
-        <a 
+        <Link
           className="text-blue-700 flex justify-center items-center m-auto max-w-36 mr-auto hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800"
           href="/pdf/CV_RANDRIANANDRASANA_Rado_Lalaina_Landry.pdf"
           download="CV_RANDRIANANDRASANA_Rado_Lalaina_Landry.pdf"
         >
             <DowloadIcone/>
             <span className='m-auto text-xl'>CV</span>
-        </a> 
+        </Link> 
 
     </section>
   )

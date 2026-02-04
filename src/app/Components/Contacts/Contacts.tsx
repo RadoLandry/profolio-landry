@@ -3,6 +3,7 @@
 import React from 'react';
 import ContactForm from './ContactForm';
 import ContactSection from './ContactSection';
+import Link from 'next/link';
 
 const Contacts: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -26,12 +27,12 @@ const Contacts: React.FC = () => {
       </div>
       <footer className="bg-[#1e293b00] py-10">
         <hr className="my-6 border-gray-700 lg:my-8" />
-        <span className="block text-sm text-center text-gray-400">
+        <div className="block text-sm text-center text-gray-400">
           &copy; {currentYear}{" "}
-          <a href="#" className="hover:underline">
+          <Link href="#" className="hover:underline">
             Elshard&trade;
-          </a>
-        </span>
+          </Link>
+        </div>
       </footer>
     </section>
   );

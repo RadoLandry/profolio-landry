@@ -3,6 +3,7 @@
 import React from 'react';
 import Image from 'next/image';
 import projectInfo from './data/projectInfo'
+import Link from 'next/link';
 
 const CardProject = () => {
   return (
@@ -16,7 +17,7 @@ const CardProject = () => {
       <ul className="my-4 space-y-3">
         {projectInfo.map((project, index) => (
           <li key={index}>
-            <a
+            <Link
               href={project.url}
               target="_blank"
               rel="noopener noreferrer"
@@ -32,7 +33,7 @@ const CardProject = () => {
               <span className="inline-flex items-center justify-center px-2 py-0.5 ms-3 text-xs font-medium rounded bg-gray-700 text-gray-400">
                 {project.date}
               </span>
-            </a>
+            </Link>
           </li>
         ))}
       </ul>

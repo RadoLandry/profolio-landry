@@ -2,6 +2,9 @@
 
 import { useState } from 'react';
 import style from './style.module.css'
+import PhoneInput, { Value } from "react-phone-number-input";
+import flags from "react-phone-number-input/flags";
+import "react-phone-number-input/style.css";
 
 interface FormData {
   name: string;
@@ -10,6 +13,7 @@ interface FormData {
 }
 
 const ContactForm = () => {
+   const [phone, setPhone] = useState<Value>();
   const [formData, setFormData] = useState<FormData>({
     name: '',
     email: '',
@@ -96,6 +100,19 @@ const ContactForm = () => {
               onChange={handleChange}
             />
           </div>
+          {/* <div>
+              <PhoneInput
+                id="telephone"
+                name="telephone"
+                placeholder="Téléphone"
+                defaultCountry="MG"
+                international 
+                value={phone}
+                onChange={setPhone}
+                flags={flags}
+                className="flex-1 p-2 text-base md:text-lg focus:outline-none text-black "
+              />
+          </div> */}
         </div>
         <div className="text-center">
           <button type="submit" className="w-full bg-blue-800 text-white px-6 py-3 font-xl rounded-md sm:mb-0">

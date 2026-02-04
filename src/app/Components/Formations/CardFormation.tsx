@@ -39,7 +39,7 @@ function Card() {
           </li>
 
           <li>
-            <a
+            <Link
               href="#"
               className="flex items-center p-3 text-base font-bold rounded-lg group hover:shadow bg-[#4b55631c] hover:bg-[#6b728026] text-white"
             >
@@ -55,11 +55,11 @@ function Card() {
               <span className="inline-flex items-center justify-center px-2 py-0.5 ms-3 text-xs font-medium rounded bg-gray-700 text-gray-400">
                 Août 2024
               </span>
-            </a>
+            </Link>
           </li>
 
           <li>
-            <a
+            <Link
               href="#"
               className="flex items-center p-3 text-base font-bold rounded-lg group hover:shadow bg-[#4b55631c] hover:bg-[#6b728026] text-white"
             >
@@ -75,7 +75,7 @@ function Card() {
               <span className="inline-flex items-center justify-center px-2 py-0.5 ms-3 text-xs font-medium rounded bg-gray-700 text-gray-400">
                 Août 2024
               </span>
-            </a>
+            </Link>
           </li>
 
         </ul>

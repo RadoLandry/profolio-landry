@@ -25,7 +25,8 @@ const experienceArray:IExperienceCard[] = [
       achievements: [
         "- Intégration des normes d'accessibilité et d'optimisation SEO",
         "- Développement, integration, et conception de nouvelles interfaces utilisateur responsives et accessibles",
-        "- Mise en accessibilité pour les personnes handicapées avec les normes WCAG,RGAA"
+        "- Mise en accessibilité pour les personnes handicapées avec les normes WCAG,RGAA",
+        "- Création d’ un nouveau plugin dans storyblok pour récupérer les produits via l'API de fastsimon.La récupération et l'affichage corrects du marchandising des produits dans le bloc"
       ],
       category: "mobile"
     },
@@ -51,17 +52,31 @@ const experienceArray:IExperienceCard[] = [
     {
       project: "Projets personnelles",
       company: "",
-      years: "2020-2021",
+      years: "2020-aujourd'hui",
       duration: "",
-      technologies: ["Node.js", "Docker", "Kubernetes", "PostgreSQL", "Redis"],
+      technologies: ["Node.js", "Docker", "stack MERN", "AdonisJS", "C#"],
       description: "Architecture microservices pour un système de gestion d'entreprise avec plus de 50 endpoints API.",
       achievements: [
-        "1- Tafatafa : un réseau social similaire à Messenger, réalisé avec Next.js, TypeScript, Node.js, MongoDB et WebSocket (2024-2025)",
-        "2- Création d'un logiciel de prédiction de séries temporelles par réseaux de neurones artificiels multicouches, développé en C# (projet de M2)",
-        "3- TAXII: Logiciel de gestion de réservation de taxi, développé avec React et Node.js (stack MERN) (projet de M1)",
-        "4- DOC-MJS:Logiciel de gestion du centre médico-social au sein du Ministère de la Jeunesse et des Sports, développé en C# (stage de L3)",
-        "5- KAINA MALAGASY : jeu vidéo développé en Java, projet de L2 à l'ISPM",
-        "6- GESTION D'ÉCOLE : logiciel de gestion scolaire développé en C#, projet de L1."
+        "- Conception et développement d'une application d'apprentissage du malgache. Application éducative sous forme de quiz avec interface d'administration dédiée Développée avec Next.js (frontend) et AdonisJS (backend) (2025-2026)",
+        "- Tafatafa : un réseau social similaire à Messenger, réalisé avec Next.js, TypeScript, Node.js, MongoDB et WebSocket (2024-2025)",
+        "- Création d'un logiciel de prédiction de séries temporelles par réseaux de neurones artificiels multicouches, développé en C# (projet de M2)",
+        "- TAXII: Logiciel de gestion de réservation de taxi, développé avec React et Node.js (stack MERN) (projet de M1)",
+        "- DOC-MJS:Logiciel de gestion du centre médico-social au sein du Ministère de la Jeunesse et des Sports, développé en C# (stage de L3)",
+        "- KAINA MALAGASY : jeu vidéo développé en Java, projet de L2 à l'ISPM",
+        "- GESTION D'ÉCOLE : logiciel de gestion scolaire développé en C#, projet de L1."
+      ],
+      category: "ai"
+    },
+    {
+      project: "Autres projets et contributions",
+      company: "COUA,Probat",
+      years: "",
+      duration: "",
+      technologies: ["Node.js", "Next.js"],
+      description: "Architecture microservices pour un système de gestion d'entreprise avec plus de 50 endpoints API.",
+      achievements: [
+        "- COUA : Un CRM (Customer Relationship Management) pour la gestion des relations clients, développé avec Next.js et Symphony",
+        "- Probat : Création d'un site vitrine et d'un outil de prospection."
       ],
       category: "ai"
     },
